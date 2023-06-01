@@ -1,4 +1,4 @@
-package src;
+package operations;
 public class Divisao{
     
     public int prod1;

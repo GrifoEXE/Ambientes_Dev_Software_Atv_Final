@@ -1,4 +1,4 @@
-import src.Divisao;
+import operations.Divisao;
 
 public class Main {
     public static void main(String[] args) {
