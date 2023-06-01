@@ -1,7 +1,8 @@
-import java.util.Scanner;
+package src;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Divisao divisao = new Divisao();
+        System.out.println(divisao.divide(1, 2));
     }
 }
