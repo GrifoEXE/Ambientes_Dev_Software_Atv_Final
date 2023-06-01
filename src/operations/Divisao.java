@@ -1,18 +1,19 @@
 package operations;
-public class Divisao{
-    
-    public int prod1;
-    public int prod2;
 
-    public int divide(int a, int b){
-        this.prod1 = a;
-        this.prod2 = b;
+public class Divisao {
 
-        return this.prod1/this.prod2;
+    public double dividirDoisValores(double a, double b) {
+        return a / b;
     }
 
-    // public divProds(int prod1, int prod2){
-    //     this.prod1 = 
-    // }
+    public double dividirEmSérie(double a, double b, double c) {
+        return (dividirDoisValores(a, b)) / c;
+    }
+
+    //implementado por outro membro
+    public double divisãoPorSubtracao(double a, double b){
+        //implementar método da classe Subtração
+        return (Double) null;
+    }
 
 }
