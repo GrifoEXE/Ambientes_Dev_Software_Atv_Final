@@ -1,3 +1,5 @@
+package src;
+
 import java.util.List;
 
 public class Soma {
@@ -9,5 +11,3 @@ public class Soma {
         return valores.stream().reduce(Double::sum).orElse(0.0);
     }
 }
-
-

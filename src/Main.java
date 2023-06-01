@@ -1,4 +1,4 @@
-package src;
+import src.Divisao;
 
 public class Main {
     public static void main(String[] args) {
