@@ -1,13 +1,14 @@
 package operations;
 
 public class RaizQuadrada {
-    public static double calcularRaizQuadrada(double numero) {
-        return Math.sqrt(numero);
+    public static double calcularRaizQuadrada(double valor) {
+        return Math.sqrt(valor);
     }
 
-    public static void main(String[] args) {
-        double numero = 25.0;
-        double resultado = calcularRaizQuadrada(numero);
-        System.out.println("A raiz quadrada de " + numero + " é " + resultado);
-    }
-}
+    public static double somarRaizesQuadradas(double valor1, double valor2) {
+        double raiz1 = calcularRaizQuadrada(valor1);
+        double raiz2 = calcularRaizQuadrada(valor2);
+        return raiz1 + raiz2;
+    }}
+
+    
