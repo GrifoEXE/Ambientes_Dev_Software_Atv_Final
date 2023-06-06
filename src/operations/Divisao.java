@@ -14,10 +14,6 @@ public class Divisao{
         return this.prod1/this.prod2;
     }
 
-    // public divProds(int prod1, int prod2){
-    //     this.prod1 = 
-    // }
-
     public double calcularMediaAritmetica(List<Double> valores){
         var soma = new Soma();
         
