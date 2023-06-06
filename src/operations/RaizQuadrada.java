@@ -1,18 +1,25 @@
 package operations;
+
+import operations.Divisao;
+
 public class RaizQuadrada {
-    public static double calcularRaizQuadrada(double valor) {
+
+    Divisao divisao = new Divisao();
+
+    public double calcularRaizQuadrada(double valor) {
         return Math.sqrt(valor);
     }
 
-   /*  public static double somarRaizesQuadradas(double valor1, double valor2) {
+    public double dividirRaizesQuadradas(double valor1, double valor2) {
         double raiz1 = calcularRaizQuadrada(valor1);
         double raiz2 = calcularRaizQuadrada(valor2);
-        return raiz1 + raiz2;
-    } */
-     
+
+        return divisao.divide(raiz1, raiz2);
+    }
+
     public int raizcubica(int x) {
         int cont = 0;
-        int r=0;
+        int r = 0;
         while (cont < x) {
             if (cont * cont == x) {
                 r = cont;
@@ -24,7 +31,7 @@ public class RaizQuadrada {
 
     public int raiz(int x) {
         int cont = 0;
-        int r=0;
+        int r = 0;
         while (cont < x) {
             if (cont * cont == x) {
                 r = cont;
@@ -32,4 +39,5 @@ public class RaizQuadrada {
             cont++;
         }
         return r;
-    }}
+    }
+}
