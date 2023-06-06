@@ -20,6 +20,7 @@ public class Divisao{
 
     public double calcularMediaAritmetica(List<Double> valores){
         var soma = new Soma();
-        return soma.somarListaDeValores(valores) / valores.size();
+        
+        return divide(soma.somarListaDeValores(valores), valores.size());
     }
 }
