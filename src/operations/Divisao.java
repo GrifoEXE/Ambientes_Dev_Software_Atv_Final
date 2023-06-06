@@ -1,4 +1,7 @@
 package operations;
+
+import java.util.List;
+
 public class Divisao{
     
     public int prod1;
@@ -15,4 +18,8 @@ public class Divisao{
     //     this.prod1 = 
     // }
 
+    public double calcularMediaAritmetica(List<Double> valores){
+        var soma = new Soma();
+        return soma.somarListaDeValores(valores) / valores.size();
+    }
 }
