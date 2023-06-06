@@ -1,10 +1,10 @@
 package operations;
 public class Divisao{
     
-    public int prod1;
-    public int prod2;
+    public double prod1;
+    public double prod2;
 
-    public int divide(int a, int b){
+    public double divide(double a, double b){
         this.prod1 = a;
         this.prod2 = b;
 
