@@ -38,6 +38,7 @@ public class RaizQuadrada {
         }
         return r;
     }
+    // multiplicação de duas raizes quadradas.
     public int multiplicaRaiz( int num1, int num2){
 
         int x = raiz(num1);
