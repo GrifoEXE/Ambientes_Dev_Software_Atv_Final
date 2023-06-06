@@ -1,7 +1,5 @@
 package operations;
 
-import operations.Divisao;
-
 public class RaizQuadrada {
 
     Divisao divisao = new Divisao();
