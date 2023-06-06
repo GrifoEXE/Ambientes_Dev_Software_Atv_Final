@@ -38,4 +38,12 @@ public class RaizQuadrada {
         }
         return r;
     }
+    public int multiplicaRaiz( int num1, int num2){
+
+        int x = raiz(num1);
+        int y = raiz(num2);
+
+        return x*y;
+
+    }
 }

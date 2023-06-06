@@ -9,5 +9,6 @@ public class Multiplicacao {
             return 1;
         }
         return x * fatorial(x-1);
+
     }
 }
