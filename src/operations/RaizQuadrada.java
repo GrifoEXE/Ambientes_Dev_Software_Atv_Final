@@ -3,7 +3,7 @@ package operations;
 public class RaizQuadrada {
 
     Divisao divisao = new Divisao();
-
+    Multiplicacao multiplicacao = new Multiplicacao();
     public double calcularRaizQuadrada(double valor) {
         return Math.sqrt(valor);
     }
@@ -37,5 +37,13 @@ public class RaizQuadrada {
             cont++;
         }
         return r;
+    }
+    // multiplicação de duas raizes quadradas.
+    public int multiplicaRaiz( int num1, int num2){
+
+        int x = raiz(num1);
+        int y = raiz(num2);
+        return multiplicacao.multi(x,y);
+
     }
 }
