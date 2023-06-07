@@ -1,22 +1,30 @@
 package operations;
 
-import java.util.List;
+public class Divisao {
 
-public class Divisao{
-    
-    public double prod1;
-    public double prod2;
+RaiQuadrada raizquadrada = new RaizQuadrada
 
-    public double divide(double a, double b){
-        this.prod1 = a;
-        this.prod2 = b;
-
-        return this.prod1/this.prod2;
-    }
-
-    public double calcularMediaAritmetica(List<Double> valores){
-        var soma = new Soma();
+public static double calcularRaizQuadradaEDivisao(double numero1, double numero2) {
+        double x = raizquadrada.raiz(numero1);
+        double y =raizquadrada.raiz(numero2);
+ 
+        return divisao.dividirDoisValores(x,y);
         
-        return divide(soma.somarListaDeValores(valores), valores.size());
     }
+
+    public double dividirDoisValores(double a, double b) {
+        return a / b;
+    }
+
+
+    public double dividirEmSérie(double a, double b, double c) {
+        return (dividirDoisValores(a, b)) / c;
+    }
+
+    //implementado por outro membro
+    public double divisãoPorSubtracao(double a, double b){
+        //implementar método da classe Subtração
+        return (Double) null;
+    }
+
 }
