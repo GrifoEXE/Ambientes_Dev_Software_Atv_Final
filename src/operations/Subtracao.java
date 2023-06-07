@@ -12,12 +12,6 @@ valor1 = valor1 + valor2;
 valor3 = valor3 + valor4;
 return soma.somarDoisValores (valor1, valor3);
     }
-
-    public static int divideSubtracao(int valor1, int valor2) {
-        int subtracao = valor1 - valor2;
-        int resultado = valor1 / subtracao;
-        return resultado;
-    }
 }
 
 
