@@ -10,4 +10,5 @@ public class Multiplicacao {
         }
         return x * fatorial(x-1);
     }
+
 }
