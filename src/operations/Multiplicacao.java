@@ -1,5 +1,7 @@
 package operations;
 
+Subtracao subtracao = new Subtracao ()
+
 public class Multiplicacao {
     public int multi(int x, int y){
         return  x * y;
@@ -9,6 +11,11 @@ public class Multiplicacao {
             return 1;
         }
         return x * fatorial(x-1);
+        
+        {
 
+public double subtracaoMulti(int x, int y, int m){
+return subtracao. subtrairDoisValores(x*m, y*m)
+    
     }
 }
